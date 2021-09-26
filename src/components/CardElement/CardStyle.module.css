@@ -1,0 +1,47 @@
+body {
+  background-color: hsl(226, 43%, 10%);
+}
+
+.Container {
+  color: white;
+  width: 300px;
+  height: auto;
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 1em;
+}
+
+.Nav {
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 1em;
+}
+
+.Header {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Button {
+  color: white;
+  font-size: 18px;
+  border: none;
+  width: auto;
+  height: 2em;
+  background-color: transparent;
+}
+
+.Content {
+  margin: 0;
+  height: auto;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 1em 1em 1em 1em;
+}
+
+.Data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
