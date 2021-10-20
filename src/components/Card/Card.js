@@ -23,7 +23,7 @@ const Card = ({card, time}) => {
                 </div>
                 <div className={style.Info}>
                     <h1>{card.timeframes[time].current} hrs</h1>
-                    <p>Last Week - {card.timeframes[time].previous} hrs</p>
+                    <p>Last {time} - {card.timeframes[time].previous} hrs</p>
                 </div>
             </div>
         </div>

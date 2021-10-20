@@ -2,9 +2,10 @@ import React from "react";
 import style from "./User.module.css";
 import UserPhoto from "../../assets/images/user-photo.jpg";
 
-const User = () => {
-  const ChangeToTime = () => {
+const User = ({setTime}) => {
 
+  const ChangeToTime = (time) => {
+    setTime(time)
   };
 
   return (
