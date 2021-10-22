@@ -1,18 +1,20 @@
-Challenge Dashboard
+# Challenge Dashboard
 
-Herramientas
+![Screenshot](https://github.com/SMNahuel/DashboarCare/blob/master/src/assets/design/desktop-design.jpg?raw=true)
 
--React (component)
--Module
--JSON data
+## Herramientas
 
-Componentes 2
+### React (component)
+### Module
+### JSON data
 
-Card (Play, execersi, ...etc):
+## Componentes 
 
-Card User 
+### Card (Play, execersi, ...etc):
 
-Enums style
+### Card User 
 
-Link => https://dashboarcare.netlify.app/
+### Enums style
+
+### Link  https://dashboarcare.netlify.app/
 
