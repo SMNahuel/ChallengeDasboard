@@ -1,56 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 
-*{
-    font-family: 'Rubik', sans-serif;
+* {
+  font-family: "Rubik", sans-serif;
 }
 
-.Container{
-    width: 250px;
-    height: 200px;
-    border-radius: 20px;
-    margin: 10px 0px 0px 20px;
+.Container {
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 10px 0px 0px 20px;
 }
 
-.Img{
-    border-radius: 10px 10px 0px 0px;
-    display: flex;
-    background-color: hsl(348, 100%, 68%);
-    justify-content: end;
-    height: 80px;
+.Work {
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  background-color: hsl(348, 100%, 68%);
+  justify-content: end;
+  height: 80px;
+}
+.Study {
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  background-color: hsl(348, 100%, 68%);
+  justify-content: end;
+  height: 80px;
+}
+.SelfCare {
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  background-color: hsl(348, 100%, 68%);
+  justify-content: end;
+  height: 80px;
+}
+.Social {
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  background-color: hsl(348, 100%, 68%);
+  justify-content: end;
+  height: 80px;
+}
+.Exercise {
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  background-color: hsl(348, 100%, 68%);
+  justify-content: end;
+  height: 80px;
+}
+.Play {
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: end;
+  height: 80px;
 }
 
-.Imagen{
-    margin-right: 10px;
-    height: 60px;
+.Imagen {
+  margin-right: 10px;
+  height: 60px;
 }
 
-.ContainerInfo{
-    height: 150px;
-    margin-top: -40px;
-    border-radius: 10px 10px 10px 10px;
-    background-color: hsl(235, 46%, 20%);
-    color: white;
-    position: relative;
+.ContainerInfo {
+  height: 150px;
+  margin-top: -40px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: hsl(235, 46%, 20%);
+  color: white;
+  position: relative;
 }
 
-.Header{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 20px 0px 20px;
-    font-weight: bolder;
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+  font-weight: bolder;
 }
 
-.Info{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 20px 20px 20px;
+.Info {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 20px 20px;
 }
-.Info > h1{
-    margin-top: 20px;
+.Info > h1 {
+  margin-top: 20px;
 }
 
-.Info > p{
-    margin-top: 10px;
-    color: hsl(235, 45%, 61%);
-    font-weight: bold;
+.Info > p {
+  margin-top: 10px;
+  color: hsl(235, 45%, 61%);
+  font-weight: bold;
 }

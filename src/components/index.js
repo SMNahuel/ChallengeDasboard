@@ -10,8 +10,9 @@ const Container = () => {
     <div className={style.Container}>
       <User time={time} setTime={setTime}/>
       <div className={style.Cards}>
-        {Data.map((card) => {
-          return <Card card={card} time={time}/>;
+        {Data.map((card, index) => {
+          console.log(index);
+          return <Card card={card} time={time} index={index}/>;
         })}
       </div>
     </div>
