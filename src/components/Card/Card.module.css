@@ -88,3 +88,31 @@
   color: hsl(235, 45%, 61%);
   font-weight: bold;
 }
+
+@media only screen and (max-width: 700px) {
+  .Container {
+    width: 20em;
+    margin: 0;
+  }
+
+  .Info{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .Info > h1 {
+    margin-top: 0px;
+  }
+
+  .Info > p {
+    margin-top: 0px;
+    color: hsl(235, 45%, 61%);
+    font-weight: bold;
+  }
+  .ContainerInfo {
+    height: 120px;
+
+  }
+}

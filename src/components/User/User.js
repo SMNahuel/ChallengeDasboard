@@ -12,8 +12,10 @@ const User = ({setTime}) => {
     <div className={style.Container}>
       <div className={style.ContainerUser}>
         <img className={style.Imagen} src={UserPhoto} alt="ProfilePhoto" />
-        <p>Report for</p>
-        <h4>Nahuel Sanchez</h4>
+        <div className={style.UserInfo}>
+          <p>Report for</p>
+          <h4>Nahuel Sanchez</h4>
+        </div>
       </div>
       <div className={style.ContainerTimer}>
         <p className={style.TimeSelector} onClick={() => ChangeToTime("daily")}>Daily</p>
