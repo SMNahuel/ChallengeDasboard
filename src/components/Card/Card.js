@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import style from "./Card.module.css";
 import Study from "../../assets/images/icon-study.svg";
 import SelfCare from "../../assets/images/icon-self-care.svg";
@@ -11,7 +11,6 @@ import { Fondo } from "../../enum/backgrounCard";
 const Image = { Study, "Self Care": SelfCare, Social, Exercise, Work, Play };
 
 const Card = ({ card, time,  index}) => {
-  const header = `style.${card.title}`;
   return (
     <div className={style.Container}>
       <div className={style.Work} style={{background: Fondo[index]} }>

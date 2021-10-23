@@ -15,41 +15,47 @@
   border-radius: 10px 10px 0px 0px;
   display: flex;
   background-color: hsl(348, 100%, 68%);
-  justify-content: end;
+  align-items: flex-start;
+  justify-content: flex-end;
   height: 80px;
 }
 .Study {
   border-radius: 10px 10px 0px 0px;
   display: flex;
   background-color: hsl(348, 100%, 68%);
-  justify-content: end;
+  align-items: flex-start;
+  justify-content: flex-end;
   height: 80px;
 }
 .SelfCare {
   border-radius: 10px 10px 0px 0px;
   display: flex;
   background-color: hsl(348, 100%, 68%);
-  justify-content: end;
+  align-items: flex-start;
+  justify-content: flex-end;
   height: 80px;
 }
 .Social {
   border-radius: 10px 10px 0px 0px;
   display: flex;
   background-color: hsl(348, 100%, 68%);
-  justify-content: end;
+  align-items: flex-start;
+  justify-content: flex-end;
   height: 80px;
 }
 .Exercise {
   border-radius: 10px 10px 0px 0px;
   display: flex;
   background-color: hsl(348, 100%, 68%);
-  justify-content: end;
+  align-items: flex-start;
+  justify-content: flex-end;
   height: 80px;
 }
 .Play {
   border-radius: 10px 10px 0px 0px;
   display: flex;
-  justify-content: end;
+  align-items: flex-start;
+  justify-content: flex-end;
   height: 80px;
 }
 
