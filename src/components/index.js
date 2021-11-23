@@ -11,8 +11,7 @@ const Container = () => {
       <User time={time} setTime={setTime}/>
       <div className={style.Cards}>
         {Data.map((card, index) => {
-          console.log(index);
-          return <Card card={card} time={time} index={index}/>;
+          return <Card card={card} time={time} index={index} key={index}/>;
         })}
       </div>
     </div>
