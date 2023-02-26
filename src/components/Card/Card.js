@@ -14,7 +14,6 @@ const Card = ({ card, time,  index}) => {
   return (
     <div className={style.Container}>
       <div className={style.Work} style={{background: Fondo[index]} }>
-        <img src={Image[card.title]}  id={index} alt="ImgHeader" className={style.Imagen} />
       </div>
       <div className={style.ContainerInfo}>
         <div className={style.Header}>
